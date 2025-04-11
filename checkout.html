@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kapehan ni Carloooo - Checkout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav">
+        <h1>Kapehan ni Carloooo.</h1>
+        <button class="menu-toggle">☰</button>
+        <ul class="menu">
+          <li><a href="index.html">Homepage</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="menu-section">
+        <h2>Menu</h2>
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Search items..." />
+          <button id="search-button">Search</button>
+        </div>
+        <table id="menu-table">
+          <thead>
+            <tr>
+              <th>Item Name</th>
+              <th>Description</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="menu-table-body"></tbody>
+        </table>
+      </div>
+      <div class="order-section">
+        <h2>Ordered Items</h2>
+        <ul id="ordered-items-list"></ul>
+        <hr />
+        <div class="total-section">
+          <strong>Total: <span id="total-price">0.00</span> PHP</strong>
+        </div>
+        <div class="payment-section">
+          <input
+            type="number"
+            id="payment-amount"
+            placeholder="Enter amount paid"
+          />
+          <button id="pay-button">Pay!</button>
+          <p id="change-info"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <div class="container" id="completed-orders-container">
+      <h2>Completed Orders</h2>
+    </div>
+  </body>
+</html>
