@@ -56,6 +56,12 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "A sweet treat with caramel and espresso over ice.",
       price: 190,
     },
+    {
+      id: 10,
+      name: "Pain Au chocolat",
+      description: "Favorite ko",
+      price: 215,
+    },
   ];
 
   let currentOrder = {}; // Object to store order: { itemId: { name, price, quantity }, ... }
