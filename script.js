@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 10,
       name: "Pain Au chocolat",
-      description: "French pastry, often translated as "chocolate bread," consisting of a flaky, buttery croissant dough wrapped around dark chocolate batons.",
+      description: "French pastry, often translated as chocolate bread, consisting of a flaky, buttery croissant dough wrapped around dark chocolate batons.",
       price: 215,
     },
   ];
